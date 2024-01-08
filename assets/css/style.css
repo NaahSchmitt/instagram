@@ -1,174 +1,275 @@
-body{
- background-color: blue;
+body {
+    margin: 0;
+    padding:0;
+    
 }
 
-.header_body{
-    width:100%;
-    height: 20px;
-    background-color: brown;
-}
 
-.section_body{
-    width:100%;
-    height: 600px;
+
+.section_body {
+    width: 100%;
+    height: 100%px;
     background-color: #fff;
-    padding: 10px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
-    
-    
 }
 
-.img_body{
-    width:600;
+
+.img_body {
+    width: 600;
     height: 600px;
 }
 
 
-.formulario1{
-    width:300px;
+.formulario1 {
+    width: 300px;
     height: 370px;
     border: 1px solid #ccc;
-    padding:20px; 
+    padding: 20px;
     margin-left: 50px;
     margin-top: 20px;
 }
-.form_body{
-    display:flex;
+
+
+.form_body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 475px; 
+    width: 100%;
+}
+.logo {
+    display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
 }
 
-.logo{
-    display:flex;
-    align-items: center;
-    justify-content: center;
-}
-.logo_body{
-    width:180px;
+.logo_body {
+    width: 180px;
     height: 100px;
-    
+
 }
-.text_password{
-    display:flex;
+
+.text_password {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     box-shadow: none;
     text-decoration: none;
-    
+
 }
 
-.input_text{
-    font-size:13px;
-    padding: 8px 15px; /*7 em cima e embaixo e 10px na lateral*/
-    border:1px solid #e5dbdb;
-    outline: 0; /* para remover Aquele efeito ao clicar e escurecer a barra de pesquisa*/
-    width:100%;
+.input_text {
+    font-size: 13px;
+    padding: 8px 15px;
+    /*7 em cima e embaixo e 10px na lateral*/
+    border: 1px solid #e5dbdb;
+    outline: 0;
+    /* para remover Aquele efeito ao clicar e escurecer a barra de pesquisa*/
+    width: 100%;
     max-width: 250px;
-    margin:10px;
+    margin: 10px;
+    margin-bottom: 10px;
 }
 
-.input_button{
-    width: 255px;
+
+.input_button {
+    width: 100%;
+    max-width: 250px;
     height: 30px;
-    color:#fff;
-    box-shadow:none;
-    border:1px solid #e5dbdb; 
-    background-color: #00b5ef;
-    border-radius: 5px;
+    background-color: #3897f0; 
+    color: #fff;
+    border: none;
+    box-shadow: none;
+    cursor: pointer;
     font-weight: bold;
-    outline: 0; 
-
+    outline: 0;
 }
-.linha{
+.linha {
     margin-top: 20px;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
-.linha2{
+
+.linha2 {
     font-size: 15px;
-    color:#b0adad;
+    color: #b0adad;
     font-weight: bold;
 }
-.linha1{
+
+.linha1 {
     width: 100px;
     height: 1px;
     background-color: #ccc;
-    margin: 0 10px; /* Espaçamento horizontal entre as linhas */
+    margin: 0 10px;
+    /* Espaçamento horizontal entre as linhas */
     border: none;
 
 }
-.linha3{
+
+.linha3 {
     width: 100px;
     height: 1px;
     background-color: #ccc;
-    margin: 0 10px; /* Espaçamento horizontal entre as linhas */
+    margin: 0 10px;
+    /* Espaçamento horizontal entre as linhas */
     border: none;
-  
+
 }
 
-.img2{
-    display:flex;
-    flex-direction:row;
-    margin-top: 5px;;
+.img2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    ;
 }
-.img2_body{
-    margin-top:9px;
+
+.img2_body {
+    margin-top: 9px;
     margin-right: 5px;
 }
-.sessao_{
-    display:flex;
+
+.sessao_ {
+    display: flex;
     align-items: center;
     justify-items: center;
     flex-direction: column;
     font-size: 15px;
 }
 
-.link{
-    text-decoration: none; 
+.link {
+    text-decoration: none;
 }
 
-.facebook{
+.facebook {
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #2d73b9;
     font-weight: bold;
 }
-.p{
-    margin-top:5px;
-    padding:5px;
-    color:#605d5d;
+
+.p {
+    margin-top: 5px;
+    padding: 5px;
+    color: #605d5d;
 }
 
-.formulario2,
-.formulario3{
-    width:300px;
+.formulario2 {
+    width: 300px;
     height: 28px;
     border: 1px solid #ccc;
-    padding:20px; 
+    padding: 20px;
     margin-left: 50px;
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.record_body{
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: row;
+.formulario3 {
+    width: 300px;
+    height: 28px;
+    border: 0;
+    padding: 20px;
+    margin-left: 50px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.link2{
+
+.record_body {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 5px;
+}
+
+.link2 {
     font-size: 14px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #2d73b9;
+    color: #00b5ef;
     font-weight: bold;
-    
+    text-decoration: none;
+
 }
 
-.aplication_body{
-    
+.container_footer {
+    display: grid;
+    grid-template-columns: repeat(12, 0px);
+    grid-column-gap: 80px;
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    padding: 50px;
+    font-size: 13px;
 }
 
+.item {
+    border-radius: 20px;
+    color: #959595;
+}
+
+.item13 {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    color: #959595;
+    padding: 30px;
+}
+
+.item14 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    color: #959595;
+}
+
+.item15 {
+    color: #959595;
+    grid-column-start: 7;
+    grid-column-end: 8;
+}
+
+
+
+@media screen and (max-width: 426px) {
+    
+    .input_text, .input_button {
+        max-width: 70%;
+    }
+    .img_body {
+        display: none;
+        max-width: 320px;
+    }
+    .item {
+        margin-bottom: 10px;
+    }
+    .container_footer {
+        display:flex;
+        align-items: center;
+        flex-direction: column;
+       align-items: first baseline;
+}
+.formulario1 {
+    width: 300px;
+    height: 370px;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+}
+
+@media screen and (max-width: 768px and  min-width: 425px) {
+    .img_body {
+        display: flex;
+        max-width: 300px;
+        margin-left: 200px;
+    }
+    .form_body{
+        margin-left: 100px;
+    }
+
+}
